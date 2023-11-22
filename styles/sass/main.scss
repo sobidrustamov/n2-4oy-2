@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.col-5 {
+  background-image: url(../../../images/bg.jpg);
+  justify-content: end;
+}
+
+.relative {
+  position: relative;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.send {
+  position: absolute;
+  right: 3%;
+  background-color: transparent;
+  transform: rotate(45deg);
+  top: 20%;
+}
+
+li {
+  padding: 0.6rem;
+  background-color: rgb(191, 228, 200);
+}
+
+.align-self-start {
+  border-radius: 15px 15px 15px 0;
+}
+.align-self-end {
+  border-radius: 15px 15px 0 15px;
+}
